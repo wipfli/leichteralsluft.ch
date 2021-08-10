@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Oliver Wipfli">
+
+    <title>Entwicklung der Ballometer Karte - Blog Leichter als Luft Ballonfahrten</title>
+	
+    <link rel="icon" type="image/png" href="../../favicon.ico">
+  
+    <!-- Bootstrap Core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../../css/agency.css" rel="stylesheet">
+    <link href="../../css/smart-green-form.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <meta property="og:title" content="Entwicklung der Ballometer Karte - Blog Leichter als Luft Ballonfahrten" />
+    <meta property="og:url" content="https://leichteralsluft.ch/blog/20210317-entwicklung-der-ballometer-karte/" />
+    <meta property="og:image" content="https://leichteralsluft.ch/blog/20210317-entwicklung-der-ballometer-karte/images/d.png" />
+    <meta property="og:description" content="In meiner Freizeit arbeite ich gerne am Ballometer. Das ist eine Sensorbox für Heissluftballone, die verschiedene Parameter wie zum Beispiel die Lufttemperatur und ..." />
+  
+    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+<nav class="navbar navbar-default navbar-static-top" style="position: absolute; top: 0; left: 0; width: 100%; background-color: rgb(41, 128, 185);">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="../../#page-top"><img src="../../img/leichter-als-luft-logo.svg" alt="leichter als luft logo" width="300px"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="../../#services">Angebot</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="../../#portfolio">Infos</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="../../#about">Oliver Wipfli</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="../../#team">Team</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="../../#contact">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    
+
+
+<!-- Angebot Section -->
+<section id="services">
+<div class="container">
+<div class="row">
+<div class="col-lg-8">
+<p><a href="..">Blog</a> &gt; Entwicklung der Ballometer Karte</p>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-8">
+<h2 class="section-heading">Entwicklung der Ballometer Karte</h2>
+<h3 class="section-subheading text-muted">
+Oliver Wipfli, 17.03.2021
+</h3>
+
+<p>In meiner Freizeit arbeite ich gerne am <a href="https://ballometer.io/">Ballometer</a>. Das ist eine Sensorbox für Heissluftballone, die verschiedene Parameter wie zum Beispiel die Lufttemperatur und die GPS Position messen kann. Weil das Gerät Zugriff auf GPS Daten hat können wir die Position des Ballons live auf einer Karte auf einer Webseite anzeigen. Hier möchte ich einige Eigenschaften dieser Ballometer Karte hervorheben.</p>
+
+
+<img src="images/a.png" width="450">
+
+<br/>
+<br/>
+
+<p>Die rote Zone ist ein Naturschutzgebiet, das in der Aussenlandeverordnung AuLaV eingetragen ist. In diesem dürfen keine Ballone landen. Datenquelle ist swisstopo. Die blau gestrichelte Linie ist eine Hochspannungsleitung. Die Daten dazu wurden von OpenStreetMaps bezogen. Zudem sind die Luftraumgrenzen des Flughafen Zürich-Kloten eingetragen. Lufträume werden von der Plattform openaip bereitgestellt.</p>
+
+<img src="images/b.PNG" width="450">
+
+<br/>
+<br/>
+
+<p>Hier sehen wir die Lufträume rund um Zürich-Kloten. Die gestrichelte Line zeigt an, wo die CTR endet, also jener Luftraum, der den Flughafen direkt umgibt.</p>
+
+<img src="images/c.PNG" width="450">
+
+<br/>
+<br/>
+
+<p>Ab 1. März 2021 ist das Kartenmaterial von swisstopo frei verfügbar. Ich habe daraufhin die Karte gleich umgestellt auf diese neue Datenquelle. Hier sehen wir die schönen Reliefschattierungen, für welche die Schweizer Kartografie bekannt ist.
+</p>
+
+<img src="images/d.png" width="450">
+
+<br/>
+<br/>
+
+<p>Damit der Pilot oder die Pilotin jederzeit die aktuellen Windmesswerte von MeteoSchweiz sehen kann, habe ich hier auf der Karte die Messungen eingezeichnet. An jenem Tag hatte es wohl etwas zu viel Bise für eine Ballonfahrt.</p>
+
+<br />
+
+<p>Mit Karten arbeiten macht mir sehr viel Spass und es ist wirklich vieles möglich. In der Zukunft könnte ich mir vorstellen, neben dem Standort des Ballons auch das Verfolgungsauto auf der Karte einzuzeichnen. Auch wäre es toll eine Karte zu haben, auf der alle Ballone eingezeichnet sind, die im Moment in der Luft sind.</p>
+
+<p>Zum Schluss ist hier der Link zu einer Ballometer online Karte mit einer Fahrt am 21.02.2021:</p>
+
+<p><a href="https://ballometer.io/wipfli/84">https://ballometer.io/wipfli/84</a></p>
+
+</div>
+</div>
+
+</div>
+</section>
+
+    
+
+    <footer class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+					<ul class="list-inline quicklinks">
+                        <li style="display: block;">&copy; Copyright 2021</li>	
+                    </ul>
+                     
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+						<li>Leichter als Luft Ballonfahrten</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                  <ul class="list-inline quicklinks">
+                    <li>
+						Oliver Wipfli
+					</li>
+                  </ul> 
+              </div>
+            </div>
+        </div>
+    </footer>
+
+    
+
+
+
+    <!-- jQuery -->
+    <script src="../../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../../js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="../../js/classie.js"></script>
+    <!-- script src="js/cbpAnimatedHeader.js"></script-->
+
+    <!-- Contact Form JavaScript -->
+    <script src="../../js/jqBootstrapValidation.js"></script>
+    <script src="../../js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../../js/agency.js"></script>
+
+</body>
+
+</html>
+<html>
+<body>
+<script type="text/javascript">
+    parent.processForm('&ftpAction=openFolder');
+</script>
+</body>
+</html>
